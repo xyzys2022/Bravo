@@ -16,21 +16,25 @@ https://www.mysqlzh.com/doc/129/652.html
 
 https://www.mysqlzh.com/doc/225/510.html
 
+### reference resources: 
+https://github.com/alibaba/druid
+
+
 ### TODO:
 1. Build code structure.
-2. Define basic keywords and implement the tokenizer. (reference resources: com.alibaba.druid)
-3. Parse basic keywords, data type, value, table, column, expression, clauses
-4. Parse SELECT, UPDATE, DELETE, INSERT, TRUNCATE syntaxes under standard SQL, it contains with clause
-5. Parse CREATE, ALTER, DROP, Rename syntax for table, view, database syntaxes under standard SQL
+2. Define basic keywords and implement the tokenizer.
+3. Parse basic keywords, data type, value, table, column, expression, clauses.
+4. Parse SELECT, UPDATE, DELETE, INSERT, TRUNCATE syntaxes under standard SQL, it contains with clause.
+5. Parse CREATE, ALTER, DROP, Rename syntax for table, view, database syntaxes under standard SQL.
 
 6. Extended MySQL keywords and expressions.
 7. Parse SELECT, UPDATE, DELETE, INSERT, TRUNCATE syntaxes under MySQL.
-8. Parse CREATE, ALTER, DROP, RENAME, SHOW CREATE syntax for table, partition table, view, database syntaxes under MySQL
-9. Parse ANALYZE, OPTIMIZE, CHECK, REPAIR for table syntaxes under MySQL
-10. Parse CREATE, DROP, Rename syntax for index syntaxes under MySQL
-11.  Parse SHOW, DO, DESCRIBE, SET, START, BEGIN, STOP, COMMIT, ROLLBACK, LOCK, UNLOCK, XA, LOAD, CACHE, FLUSH, KILL, RESET, PURGE, CHANGE, PREPARE, EXECUTE, DEALLOCATE syntaxes under MySQL
-12.  Parse CREATE, DROP, GRANT, REVOKE, SET PASSWORD, RENAME for user syntaxes under MySQL
-13.  Parse CREARE, ALTER, DROP, SHOW CREATE, SHOW STATUS, CALL, BEGIN ... END, DECLARE, DO, Define Variables, SET Variables, CONDITION, SELECT ...INTO, CONTINUE, EXIT, UNDO, SQLWARNING, NOT FOUND, SQLEXCEPTION, DECLARE CURSOR, OPEN CURSOR, FETCH CURSOR, CLOSE CURSOR, IF, CASE, LOOP, LEAVE, ITERATE, REPEAT, WHILE, FOR EACH ROW for prodruce, function, event, trigger syntaxes under MySQL
+8. Parse CREATE, ALTER, DROP, RENAME, SHOW CREATE syntax for table, partition table, view, database syntaxes under MySQL.
+9. Parse ANALYZE, OPTIMIZE, CHECK, REPAIR for table syntaxes under MySQL.
+10. Parse CREATE, DROP, Rename syntax for index syntaxes under MySQL.
+11.  Parse SHOW, DO, DESCRIBE, SET, START, BEGIN, STOP, COMMIT, ROLLBACK, LOCK, UNLOCK, XA, LOAD, CACHE, FLUSH, KILL, RESET, PURGE, CHANGE, PREPARE, EXECUTE, DEALLOCATE syntaxes under MySQL.
+12.  Parse CREATE, DROP, GRANT, REVOKE, SET PASSWORD, RENAME for user syntaxes under MySQL.
+13.  Parse CREARE, ALTER, DROP, SHOW CREATE, SHOW STATUS, CALL, BEGIN ... END, DECLARE, DO, Define Variables, SET Variables, CONDITION, SELECT ...INTO, CONTINUE, EXIT, UNDO, SQLWARNING, NOT FOUND, SQLEXCEPTION, DECLARE CURSOR, OPEN CURSOR, FETCH CURSOR, CLOSE CURSOR, IF, CASE, LOOP, LEAVE, ITERATE, REPEAT, WHILE, FOR EACH ROW for prodruce, function, event, trigger syntaxes under MySQL.
 
 
 ## Phase 1: PostgreSQL 14 syntax
