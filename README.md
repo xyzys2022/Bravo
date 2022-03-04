@@ -7,13 +7,16 @@ In the future, Bravo will provide more components. For example, Bravo may provid
 
 
 ## Phase 1: Complete common syntax, extend MySQL syntax
-references: 
+### references: 
 https://en.wikipedia.org/wiki/SQL-92
+
 http://www.contrib.andrew.cmu.edu/~shadow/sql/sql1992.txt
+
 https://www.mysqlzh.com/doc/129/652.html
+
 https://www.mysqlzh.com/doc/225/510.html
 
-TODO:
+### TODO:
 1. Build code structure.
 2. Define basic keywords and implement the tokenizer. (reference resources: com.alibaba.druid)
 3. Parse basic keywords, data type, value, table, column, expression, clauses
@@ -31,8 +34,8 @@ TODO:
 
 
 ## Phase 1: PostgreSQL 14 syntax
-references: 
+### references: 
 http://www.postgres.cn/docs/14/index.html
 
-TODO：
+### TODO：
 1. 
